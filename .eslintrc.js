@@ -77,10 +77,6 @@ module.exports = {
 
         'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 0,
-        // Prettier
-        // eslint looks for the prettier config at the top level of the package/app
-        // but the config lives in the `config/` directory. Passing the config here
-        // to get around this.
         'prettier/prettier': ['error', prettierConfig],
     },
     settings: {

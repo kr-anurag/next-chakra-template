@@ -1,10 +1,7 @@
 import { Box, Button } from '@chakra-ui/react';
 import type { NextPage } from 'next';
-import { useRouter } from 'next/router';
 
 const Home: NextPage = () => {
-    const router = useRouter();
-
     return (
         <Box
             minH="100vh"
